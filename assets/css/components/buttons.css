@@ -1,0 +1,93 @@
+.btnres{
+    height: 58px;
+    width: 298px;
+    background: var(--c-primarytext);
+    color: var(--c-secbackground);
+    font-family: var(--t-primfont);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+.btnres.standaard{
+    margin-left: 50px;
+}
+/* .btnres.standaard:hover{
+    background: rgb(9,18,19);
+    background: linear-gradient(0deg, rgba(9,18,19,1) 0%, rgba(46,90,93,1) 65%);
+} */
+
+.btnres.active{
+    margin-left: 100px;
+    background: rgb(9,18,19);
+    background: linear-gradient(180deg, rgba(9,18,19,1) 0%, rgba(46,90,93,1) 80%);
+}
+
+.btnres.hover{
+    margin-left: 100px;
+    background: rgb(9,18,19);
+    background: linear-gradient(0deg, rgba(9,18,19,1) 0%, rgba(46,90,93,1) 65%);
+}
+.btnind{
+    height: 43px;
+    width: 245px;
+    background: var(--c-primarytext);
+    color: var(--c-secbackground);
+    font-family: var(--t-primfont);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+.btnind.standaard{
+    margin-left: 50px;
+}
+/* .btnind.standaard:hover{
+    background: rgb(9,18,19);
+    background: linear-gradient(0deg, rgba(9,18,19,1) 0%, rgba(46,90,93,1) 65%);
+} */
+
+.btnind.active{
+    margin-left: 100px;
+    background: rgb(9,18,19);
+    background: linear-gradient(180deg, rgba(9,18,19,1) 0%, rgba(46,90,93,1) 80%);
+}
+
+.btnind.hover{
+    margin-left: 100px;
+    background: rgb(9,18,19);
+    background: linear-gradient(0deg, rgba(9,18,19,1) 0%, rgba(46,90,93,1) 65%);
+}
+.bschlink{
+    display: flex;
+    font-family: var(--t-primfont);
+    text-decoration: underline;
+    color: var(--c-primarytext);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 15px;
+}
+.bschlink.standaard{
+    margin-left: 50px;
+}
+.bschlink.hover{
+    margin-left: 100px;
+    color: rgb(9,18,19);
+}
+.bschlink.active{
+    margin-left: 100px;
+    text-shadow: 0.5px 0.5px 1px rgb(9,18,19);
+}
