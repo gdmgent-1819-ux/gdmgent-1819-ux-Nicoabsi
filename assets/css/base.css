@@ -1,9 +1,195 @@
-html {
-  height: 100%;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body {
-  font-family: var(--t-body);
-  height: inherit;
-  margin: 0;
+
+/****** Head ******/
+header{
+    background: var(--c-headerfootercol);
+    background: var(--c-headerfootergra);
+    align-items: center;
+    display: flex;
+    height: 85px;
+    width: 100vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0px;
+}
+ul.mainnav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+nav ul.mainnav a{
+    color:var(--c-secondtext);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin: 65px;
+    text-transform: uppercase; 
+    font-weight: lighter;
+}
+nav ul.mainnav a:hover{
+    text-decoration: underline;
+    color: var(--c-primarytext);
+}
+
+nav ul.mainnav li.active a{
+    color:var(--c-primarytext);
+ }
+
+#titlelogo{
+    height: 64px;
+    padding-left:  50px;
+}
+
+ul.dropdown{
+    text-transform: none;
+}
+nav ul.dropdown {
+    position: absolute; 
+    display: none; 
+    top: 85px;
+    padding: 20px;
+    background: var(--c-headerfootercol);
+    background: var(--c-headerfootergra);
+  }
+  
+  nav ul.mainnav li.hasdropdown:hover ul.dropdown {
+    display: block;
+    
+  }
+  #dropsla{
+    font-size: 17px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 10px;
+}
+/****** Body ******/
+.body{
+    background: var(--c-background); 
+    margin: 0
+}
+#home{
+    margin-top: 85px;
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.infoblok{
+    height: 500px;
+    width: 260px;
+    margin-top: 120px;
+    margin-bottom: 175px;
+}
+.blok{
+    background: var(--c-secbackground);
+    width: 255px;
+    margin-bottom: 35px;
+    color: var(--c-primarytext);
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.blok.ligging{
+    height: 239px;
+}
+.blok.contact{
+    height: 222px;
+    
+}
+#infobloktit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: var(--c-primarytext);
+}
+#infobloktit:hover{
+    text-decoration: underline;
+    color: var(--c-primarytext);
+}
+#contacthome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 22px;
+    margin: 10px;
+}
+.sociacontact{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+#googlemaps{
+    height: 155px;
+    }
+.googlemaps{
+    display: flex;
+    justify-content: center;
+
+}
+.welkom{
+    width: 650px;
+    height: 388px;
+    margin-top: 120px;
+    margin-right: 208px;
+    color: var(--c-primarytext);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+#welkomtekst{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/****** Foot ******/
+.footer{
+    background: var(--c-headerfootercol);
+    background: var(--c-headerfootergra);
+    align-items: center;
+    display: flex;
+    height: 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bottomlogo {
+    height: 64px;
+    margin: 0 170px;
+ 
+}
+
+.subscribe{
+    font-size: 30px;
+    margin:  0 165px;
+    display: flex;
+    color: var(--c-primarytext);
+
+}
+.icon{
+    display: inline-block;
+    padding: 25px;
+}
+.foottel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-style: italic;
+    color: var(--c-primarytext);
+    margin: 0 165px;
+
+    
 }
