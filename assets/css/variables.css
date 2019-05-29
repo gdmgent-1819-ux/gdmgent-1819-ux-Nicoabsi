@@ -1,26 +1,16 @@
 
-:root {
-  /**
-   * Colour palette
-   */
-  --c-primary: hsl(190, 100%, 40%);
+:root{
+    --c-background: #feebe4;
+    --c-secbackground:#D9D9DB;
+    --c-headerfootercol: rgb(215,211,211);
+    --c-headerfootergra:linear-gradient(13deg, rgba(215,211,211,1) 0%, rgba(234,232,232,1) 25%, rgba(215,211,211,1) 50%, rgba(191,191,191,1) 100%);
+    --c-primarytext: #2E5A5D;
+    --c-secondtext: #6B3006;
+    --c-thirdtext: #394BAC;
+    --c-white: white; 
 
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
-
-  /**
-   * Typography
-   */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+    --t-primfont: Georgia, 'Times New Roman', Times, serif;
+    --t-secfont: Arial, Helvetica, sans-serif;
 }
 
 
