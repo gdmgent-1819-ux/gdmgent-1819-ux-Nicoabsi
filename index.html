@@ -2,11 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eindopdracht UX</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../Homepage/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="..//assets/logo.png">
+    <title>B&B Absil</title>
 </head>
 <body>
+    <header>
+    <div class="titlelogo">
+        <img  id="titlelogo" src="../assets/logo.png" alt="">
+    </div>    
+        <nav>
+            <ul class="mainnav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="hasdropdown"><a href="#">Kamer</a>
+                <ul class="dropdown">
+                        <li><a id="dropsla" href="#">Slaapkamers</a></li>
+                        <li><a id="dropsla" href="#">Gemeenschappelijke ruimtes</a></li>
+                        </ul></li>
+                <li><a href="#">Activiteiten</a></li>
+                <li><a href="#">Reserveren</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="body">
+        <img id="home" src="../assets/Home-logo.jpg" alt="">
+       <div class="container"> 
+            <div class="welkom">
+             <h1>Welkom in B&B Absil</h1>
+             <p id="welkomtekst">Wij zijn de B&B voor jongeren!<br> Activiteiten en een perfecte locatie, nieuwe mensen leren kennen, chillen en genieten van rijkelijk ontbijt!<br><br> Wij zorgen ervoor dat jonge mensen van 16-25 jaar de plaats hebben om te overnachten en nog veel meer. Met onze activiteiten is er altijd iets te doen, zowel in groep als individueel. Dit is zeker niet verplicht maar kan altijd leuk zijn als je voor meerdere dagen bij ons verblijft. Of wanneer je nieuwe mensen wilt leren kennen. <br><br>Ontdek meer op de rest van de website!</p>
+            </div>
+            <div class="infoblok">
+                <div class="blok ligging">
+                        <div id="infobloktit">Ligging</div>
+                        <div class="googlemaps"><img id="googlemaps" src="../assets/google-maps-logo.png" alt=""></div> 
+                </div>
+                <div class="blok contact">
+                    <a id="infobloktit" href="">Contact</a>
+                    <p id="contacthome">Tel.: 050/61.62.63 Mail: Info@B&BAbsil.be</p>
+                   <div class="sociacontact"> <i class="icon fab fa-facebook-f"></i>
+                    <i class="icon fab fa-instagram"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="subscribe">
+            <i class="icon fab fa-facebook-f"></i>
+            <i class="icon fab fa-instagram"></i>
+            <i class="icon fas fa-envelope-open-text"></i>
+        </div>
+        <div class="bottomlogo">
+            <img id="bottomlogo" src="../assets/logo.png" alt="">
+        </div>
+        <div class="foottel">Tel.: 050/61.62.63</div>
+    </footer>
 </body>
 </html>
