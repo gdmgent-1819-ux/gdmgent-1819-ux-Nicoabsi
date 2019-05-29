@@ -25,7 +25,7 @@ ul.mainnav{
 
 nav ul.mainnav a{
     color:var(--c-secondtext);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--t-primfont);
     font-size: 20px;
     text-decoration: none;
     display: block;
@@ -107,7 +107,7 @@ nav ul.dropdown {
     
 }
 #infobloktit{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--t-primfont);
     font-size: 25px;
     margin: 10px;
     text-decoration: none;
@@ -119,7 +119,7 @@ nav ul.dropdown {
     color: var(--c-primarytext);
 }
 #contacthome{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--t-primfont);
     font-style: italic;
     font-size: 22px;
     margin: 10px;
@@ -145,14 +145,14 @@ nav ul.dropdown {
     color: var(--c-primarytext);
 }
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--t-primfont);
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
     margin: 0 0 20px 0;
 }
 #welkomtekst{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--t-primfont);
     font-size: 20px;
 }
 
@@ -185,11 +185,9 @@ h1{
     padding: 25px;
 }
 .foottel{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--t-primfont);
     font-size: 22px;
     font-style: italic;
     color: var(--c-primarytext);
-    margin: 0 165px;
-
-    
+    margin: 0 165px;  
 }
