@@ -170,7 +170,99 @@ h4{
     width: 50%;
     text-align: center;
 }
+/* *****TEXT***** */
+.nav{
+    display: flex;
+    color:var(--c-secondtext);
+    font-family: var(--t-primfont);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.nav.standaard{
+    margin-left: 50px;
+}
 
+.nav.active{
+    margin-left: 100px;
+    color:  var(--c-primarytext);
+}
+
+.nav.hover{
+    margin-left: 100px;
+    color: var(--c-primarytext);
+    text-decoration: underline;
+}
+.status{
+    display: flex;
+    font-style: italic;
+    font-family: var(--t-secfont);
+    margin-top: 5px;
+}
+.status.standaard{
+    margin-left: 50px;
+}
+
+.status.active{
+    margin-left: 100px;
+}
+
+.status.hover{
+    margin-left: 100px;
+}
+
+/* *****TITLES***** */
+
+.pagtitel{
+    font-family: var(--t-primfont);
+    font-size: 30px;
+    color: var(--c-primarytext);
+    margin: 15px;
+}
+.alntitel{
+    font-family: var(--t-primfont);
+    font-size: 25px;
+    color: var(--c-primarytext);
+    font-weight: bold;
+    font-style: italic;
+    margin: 15px;
+}
+.kamtitel{
+    font-family: var(--t-primfont);
+    font-size: 25px;
+    font-style: italic;
+    color: var(--c-primarytext);
+    margin: 15px;
+}
+.inftitel{
+    font-family: var(--t-primfont);
+    font-size: 25px;
+    color: var(--c-primarytext);
+    margin: 15px;
+}
+
+/* *****PLATTE TEKSTEN***** */
+.plattekst{
+    color: var(--c-primarytext);
+}
+.algplat{
+    font-family: var(--t-primfont);
+    font-size: 20px;
+    margin: 15px;
+}
+.kamplat{
+    font-family: var(--t-primfont);
+    font-size: 17px;
+    margin: 15px;
+}
+.infplat{
+    font-family: var(--t-primfont);
+    font-size: 17px;
+    font-style: italic;
+    margin: 15px;
+}
 
 /* *****LOGO & AFBEELDINGEN***** */
 #logo{
