@@ -1,17 +1,271 @@
-.sg-title {
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: #333;
-    margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:  rgb(201, 201, 202);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 10px;
+    background: rgb(250, 250, 250);
+    padding: 10px;
 }
 
-.sg-subtitle {
-    font-size: 1rem;
-    border-bottom: solid 1px #aaa;
-    font-weight: 400;
-    color: #666;
-    text-transform: uppercase;
-    margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+/* *****TITLES***** */
+h1{
+    font-family: var(--t-secfont);
+    color:black;
+    font-weight: lighter;
+    margin: 5px;
+}
+h2{
+    font-family: var(--t-secfont);
+    color:black;
+    font-weight: lighter;
+    margin: 5px;
+    border-bottom: solid rgb(186, 186, 189) 1pt;
+}
+.fonts{
+    margin: 15px;
+}
+
+h3{
+    font-family: var(--t-secfont);
+    color:black;
+    font-weight: lighter;
+    margin: 5px;
+    border-bottom: solid rgb(186, 186, 189) 1pt;
+    margin-top: 20px;
+}
+
+h4{
+    font-family: var(--t-secfont);
+    color:black;
+    font-weight: lighter;
+    margin: 15px;
+    
+}
+/* *****COLORS***** */
+.bckcol1{
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    background: var(--c-background);
+    text-align: center;
+}
+.bckcol2{
+    margin: 15px;
+    width: 50%;
+    background: var(--c-headerfootercol);
+    background: var(--c-headerfootergra);
+    text-align: center;
+}
+.texcol1{
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    background: var(--c-primarytext);
+    text-align: center;
+    color: var(--c-white);
+}
+.texcol2{
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    background: var(--c-secondtext);
+    text-align: center;
+    color: var(--c-white);
+}
+.texcol3{
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    background: var(--c-thirdtext);
+    text-align: center;
+    color:var(--c-white);
+}
+.infcol1{
+    background: var(--c-secbackground);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+}
+.infcol2{
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    background: var(--c-primarytext);
+    text-align: center;
+    color:var(--c-white);
+}
+.forcol1{
+    background: var(--c-secbackground);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+}
+.forcol2{
+    background: var(--c-thirdtext);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+    color: var(--c-white);
+}
+.forcol3{
+    background: rgba(57, 74, 172, 0.60);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+}
+.forcol4{
+    background: var(--c-thirdtext);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+    color: var(--c-white);
+}
+.logcol1{
+    background: #FDE0A1;
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+}
+.logcol2{
+    background: var(--c-thirdtext);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+    color: var(--c-white);
+}
+.butcol1{
+    background: var(--c-primarytext);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+    color: var(--c-white);
+}
+.butcol2{
+    background: var(--c-secbackground);
+    margin: 15px;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+
+/* *****LOGO & AFBEELDINGEN***** */
+#logo{
+    height: 64px;
+    margin: 10px;
+}
+#normpic{
+    width: 276px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+    font-size: 30px;
+    margin: 15px;
+    color: var(--c-primarytext);
+}
+#maps{
+    width: 153px;
+    margin: 15px;
+}
+
+
+/* *****CARDS***** */
+.kamcar{
+    background: var(--c-secbackground);
+    width: 987px;
+    height: 320px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.cartit{
+    font-family: var(--t-primfont);
+    font-size: 25px;
+    font-style: italic;
+    color: var(--c-primarytext);
+    margin-left: 23px;
+    padding-top: 17px;
+}
+.inhcar{
+    display: flex
+}
+#lofcar{
+    width: 295px;
+    height: 236px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.texcar{
+    background: var(--c-background);
+    width: 621px;
+    height: 236px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 24px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textcar{
+    font-family:var(--t-primfont);
+    font-size: 17px;
+    color: var(--c-primarytext);
+    padding-top: 11px;
+    padding-left: 18px; 
+}
+.lincar{
+    font-family: var(--t-primfont);
+    text-decoration: underline;
+    color: var(--c-primarytext);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 26px;
+    right: 18px;
+}
+/* infoblok */
+.infoblok{
+    margin: 15px;
+}
+.blok{
+    background: var(--c-secbackground);
+    width: 255px;
+    color: var(--c-primarytext);
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.blok.ligging{
+    height: 239px;
+}
+#infobloktit{
+    font-family: var(--t-primfont);
+    font-size: 25px;
+    margin: 10px;
+}
+#googlemaps{
+    height: 155px;
+    }
+.googlemaps{
+    display: flex;
+    justify-content: center;
 }
